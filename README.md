@@ -1,6 +1,9 @@
 # js-dev-env
 Preconfigured setup for JavaScript projects on Node.js
 
+Transpiler: BABEL
+Bundlin: Webpack
+
 To enable dependencies vuolnurability check:
 * npm install -g  nsp
     nsp check 
