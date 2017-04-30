@@ -1,8 +1,12 @@
 # js-dev-env
 Preconfigured setup for JavaScript projects on Node.js
 
-Transpiler: BABEL
-Bundlin: Webpack
+** Node + NPM environment
+** WebServer: Express
+** Transpiler: BABEL
+** Bundling: Webpack
+** Linting: ESLint
+
 
 To enable dependencies vuolnurability check:
 * npm install -g  nsp
@@ -15,3 +19,6 @@ Localtunnel to quick share progress:
 
 * npm install -g localtunnel
 * lt --port 3000 --subdomain alex
+
+Start with linting watch:
+*npm start -s
