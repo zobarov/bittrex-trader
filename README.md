@@ -1,12 +1,19 @@
-# js-dev-env
+# JavaScript Dev Environment Setup
+
 Preconfigured setup for JavaScript projects on Node.js
 
-** Node + NPM environment
-** WebServer: Express
-** Transpiler: BABEL
-** Bundling: Webpack
-** Linting: ESLint
+## Built With
 
+* Node + NPM environment
+* WebServer: Express
+* Transpiler: BABEL
+* Bundling: Webpack
+* Linting: ESLint
+* Testing framework: Mocha
+* Testing Assertion Library: Chai
+* Testing Helper Library: JSDOM
+
+## Usage
 
 To enable dependencies vuolnurability check:
 * npm install -g  nsp
@@ -21,4 +28,4 @@ Localtunnel to quick share progress:
 * lt --port 3000 --subdomain alex
 
 Start with linting watch:
-*npm start -s
+* npm start -s
