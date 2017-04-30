@@ -12,6 +12,8 @@ Preconfigured setup for JavaScript projects on Node.js
 * Testing framework: Mocha
 * Testing Assertion Library: Chai
 * Testing Helper Library: JSDOM
+* CI: Travis
+* HTTP Mocking: JSONServer, JSON Schema Facker
 
 ## Usage
 
