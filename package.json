@@ -1,7 +1,7 @@
 {
-  "name": "js-devs-env",
+  "name": "bittrex-trader",
   "version": "1.0.0",
-  "description": "JavaScript development environment.",
+  "description": "trader for bittrex platform",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:src lint:watch test:watch start-mockapi",
@@ -55,5 +55,18 @@
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
     "webpack-md5-hash": "0.0.5"
-  }
+  },
+  "main": "webpack.config.dev.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zobarov/bittrex-trader.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zobarov/bittrex-trader/issues"
+  },
+  "homepage": "https://github.com/zobarov/bittrex-trader#readme"
 }
